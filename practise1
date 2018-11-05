@@ -1,0 +1,7 @@
+# printing gci is great 10 times
+for a in range(1,11):
+    print("GCI is great")
+name=input("Enetr your name:") # prompts user to enter their name
+print("Hello",name,"please to meet you!",end="")
+name=name[::-1] # reverses the string
+print("Did you know your name backward is",name)
